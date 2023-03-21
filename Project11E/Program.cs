@@ -20,9 +20,9 @@ internal class Program
         //ListAllProducts();
         //ListAllSuppliers();
         //CountAllProductsPerCategory();
-        //QueryingProductsWithLike();
-        //GetAllOrders();
-        //ExplicitLoadingCategories();
+        QueryingProductsWithLike();
+        GetAllOrders();
+        ExplicitLoadingCategories();
         ManipulateData("DELETE");
         ListAllProducts();
         WriteLine("Done.");
